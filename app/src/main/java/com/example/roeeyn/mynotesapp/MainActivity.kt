@@ -17,7 +17,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Toast.makeText(this, "onCrate", Toast.LENGTH_SHORT).show()
+	// ===========================Inicia mensaje motivacional===============================
+        Toast.makeText(this, "Arreglamos tu codigo por que esta feo", Toast.LENGTH_SHORT).show()
+	// ===========================Fin de mensaje motivacional===============================
 
         btn_login.setOnClickListener {
 
